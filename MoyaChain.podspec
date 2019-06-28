@@ -27,12 +27,13 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/WZYGemini/MoyaChain.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '10.0'
-  
+  s.swift_version = '4.0'
   
   s.subspec 'Core' do |cs|
     cs.source_files = 'MoyaChain/Core/*.swift'
     cs.dependency 'Alamofire'
     cs.dependency 'Moya'
+
     
   end
   
