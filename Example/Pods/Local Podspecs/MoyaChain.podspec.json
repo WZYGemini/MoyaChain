@@ -12,12 +12,13 @@
     "WZGemini": "1113256768@qq.com"
   },
   "source": {
-    "git": "https://github.com/WZGemini/ZXLive.git",
+    "git": "https://github.com/WZYGemini/MoyaChain.git",
     "tag": "1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
+  "swift_versions": "4.0",
   "subspecs": [
     {
       "name": "Core",
@@ -31,5 +32,6 @@
         ]
       }
     }
-  ]
+  ],
+  "swift_version": "4.0"
 }

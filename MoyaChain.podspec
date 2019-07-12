@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MoyaChain'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'Moya + Codable'
   
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author           = { 'WZGemini' => '1113256768@qq.com' }
   s.source           = { :git => 'https://github.com/WZYGemini/MoyaChain.git', :tag => s.version.to_s }
   
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   s.swift_version = '4.0'
   
   s.subspec 'Core' do |cs|
