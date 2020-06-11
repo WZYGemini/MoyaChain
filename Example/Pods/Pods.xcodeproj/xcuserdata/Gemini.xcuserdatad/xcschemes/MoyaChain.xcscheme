@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BCF823F31BBE97F3C518F914728268E9"
-               BuildableName = "MoyaChain.framework"
+               BuildableName = "MoyaChain"
                BlueprintName = "MoyaChain"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
